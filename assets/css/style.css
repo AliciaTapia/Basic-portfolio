@@ -1,0 +1,101 @@
+	/* NOTE: Commenting is a bit different in CSS. 
+	   They start with forward-slash + asterisk, 
+	   and end with back-slash asterisk.
+	*/
+	body {
+	margin:0;
+	padding: 0;
+	background-color: #efeee7;
+	font-family: "georgia","times new roman","times","serif";
+	padding: 30px;
+	/*border-style: solid; /* Give an element a solid border */
+	/*order-width: 5px; /* Render the border five pixels thick */
+	}
+	
+	
+
+	/* h1 heading tag */
+	h1 {
+		margin-right: 800px;
+		padding-top: 20px;
+		padding-bottom:20px;
+		border: 2px solid#cccccc;
+		font-size: 20px; /* Change the size of your font to 60 pixels high */
+		text-align: center; /* align the text to the center of its enclosing element (e.g. div) */
+		background-color: #4aaaa5; /* The background of the heading element will now be black */
+		color: white; /* This will color the heading font white */
+	}
+
+
+	#connect,
+	#aboutme,
+	img {
+		float:left;
+	}
+	
+	#aboutme{
+		width: 70%;
+		border: 1px solid #dddddd;
+		background-color: #ffffff;
+	}
+	
+	#connect{
+		border: 1px solid #dddddd;
+		background-color: #ffffff;
+		margin-left: 25px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	/* h2 heading tags */
+	h2 {
+		color:#4aaaa5;
+		font-size: 20px; 
+		text-align: left; 
+		margin-top: 15px; /* Put a 15-pixel margin at the top of all h2 headings */
+		margin-bottom: 15px;
+		margin-left: 15px; 
+
+	}
+
+	/* h3 heading tags */
+	h3 {
+		color:#4aaaa5;
+		font-size: 20px;
+		text-align: center;
+		margin-top: 15px;
+	}
+
+	/* all img tags */
+	img {
+		border:7px solid #4aaaa5;
+		margin-left: 10px;
+		margin-right: 25px;
+	}
+
+	/* All p tags */
+	p {
+		margin-left: 15px;
+		margin-right: 20px;
+		color:#777777;
+		text-align: left;
+		font-size: 15px;
+		/*font-weight: bold; /* Bold the text */
+
+	}
+
+	/* All unordered list tags */
+	ul {
+		text-align: left;
+		font-size: 15px;
+		/*border-style: solid; /* Give an element a solid border */
+		/*order-width: 5px; /* Render the border five pixels thick */
+
+		/* Include bullets in the content flow. */
+		/* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
+		/*list-style-position: inside; 
+	}
+
+	
+
+
