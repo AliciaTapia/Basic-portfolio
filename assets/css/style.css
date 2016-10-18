@@ -1,101 +1,131 @@
-	/* NOTE: Commenting is a bit different in CSS. 
-	   They start with forward-slash + asterisk, 
-	   and end with back-slash asterisk.
-	*/
+	
 	body {
-	margin:0;
-	padding: 0;
+		border: 1px solid green;
 	background-color: #efeee7;
 	font-family: "georgia","times new roman","times","serif";
-	padding: 30px;
-	/*border-style: solid; /* Give an element a solid border */
-	/*order-width: 5px; /* Render the border five pixels thick */
 	}
-	
-	
 
-	/* h1 heading tag */
 	h1 {
-		margin-right: 800px;
-		padding-top: 20px;
-		padding-bottom:20px;
+		border: 1px solid blue;
+		padding:20px;
 		border: 2px solid#cccccc;
-		font-size: 20px; /* Change the size of your font to 60 pixels high */
-		text-align: center; /* align the text to the center of its enclosing element (e.g. div) */
-		background-color: #4aaaa5; /* The background of the heading element will now be black */
-		color: white; /* This will color the heading font white */
-	}
-
-
-	#connect,
-	#aboutme,
-	img {
+		font-size: 20px; 
+		text-align: center; 
+		background-color: #4aaaa5; 
+		color: white; 
+		width:30%;
 		float:left;
-	}
-	
-	#aboutme{
-		width: 70%;
-		border: 1px solid #dddddd;
-		background-color: #ffffff;
-	}
-	
-	#connect{
-		border: 1px solid #dddddd;
-		background-color: #ffffff;
-		margin-left: 25px;
-		padding-left: 10px;
-		padding-right: 10px;
+		margin-left:15px;
 	}
 
-	/* h2 heading tags */
+	ul {
+		list-style-type: none;
+		margin:0;
+ 		padding: 0;
+ 		overflow: hidden;
+ 		width: 285px;
+		font-size: 15px;
+		float: right;
+	}
+
+   	li {
+   		float:right;
+   	}
+	
+	li a {
+		display:inline-block;
+		color:#777777;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration:none;
+	}
+	
+	
+	section{
+		clear:both;
+		width: 63%;
+		border: 1px solid #dddddd;
+		background-color: #ffffff;
+		padding: 10px;
+		float: left;
+		margin-bottom: 30px;
+		overflow: auto;
+		margin-left: 10px;
+	}
+	
 	h2 {
 		color:#4aaaa5;
-		font-size: 20px; 
+		font-size: 15px; 
 		text-align: left; 
-		margin-top: 15px; /* Put a 15-pixel margin at the top of all h2 headings */
-		margin-bottom: 15px;
-		margin-left: 15px; 
-
+		margin: 15px; 
 	}
-
-	/* h3 heading tags */
-	h3 {
-		color:#4aaaa5;
-		font-size: 20px;
-		text-align: center;
-		margin-top: 15px;
-	}
-
-	/* all img tags */
 	img {
-		border:7px solid #4aaaa5;
-		margin-left: 10px;
-		margin-right: 25px;
+		border:5px solid #4aaaa5;
+		margin:10px;
+		float: left;
+		display: inline;
 	}
 
 	/* All p tags */
 	p {
-		margin-left: 15px;
-		margin-right: 20px;
 		color:#777777;
-		text-align: left;
+		text-align: justify;
 		font-size: 15px;
 		/*font-weight: bold; /* Bold the text */
-
 	}
 
-	/* All unordered list tags */
-	ul {
-		text-align: left;
+	aside{
+		width: 30%;
+		border: 1px solid #dddddd;
+		background-color: #ffffff;
+		color:#4aaaa5;
 		font-size: 15px;
-		/*border-style: solid; /* Give an element a solid border */
-		/*order-width: 5px; /* Render the border five pixels thick */
+		text-align: center;
+		float: left;
+		margin-left: 25px;
 
-		/* Include bullets in the content flow. */
-		/* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
-		/*list-style-position: inside; 
 	}
 
+	.iconos{
+		display:inline-block;
+		margin:0 auto;
+
+	}
+
+	.iconos li{
+		margin:0px auto;
+	}
+
+
+	.linkedin img{
+		width:40px;
+		height:40px;
+		border:0;
+	}
+	.github img{
+		width:40px;
+		height:40px;
+		border:0;
+	}
+
+	.stack img{
+		width:40px;
+		height:40px;
+		border:0;
+	}
+
+	footer, .push{
+		padding: 20px;
+		height: 25px;
+		clear:both;
+		text-align: center;
+		font-size: 12px;
+		background: #666666;
+		color: white;
+		border-top: 5px solid #4aaaa5;
+		position: fixed;
+		left: 0;
+		bottom:0;
+		width: 100%;
+	}
 	
-
-
